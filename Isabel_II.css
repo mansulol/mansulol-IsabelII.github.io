@@ -1,0 +1,70 @@
+body
+{
+    background: rgb(95, 35, 120);
+    font-family: "Montserrat",sans-serif;
+    font-size: 150%;
+}
+#isabel
+{   
+    background-color: rgba(255, 255, 255, 0.727);
+    border-radius: 20%;
+    margin-left: 10px;
+    font-size: xxx-large;
+    margin-right: 10px;
+    text-align: center;
+    color: rgb(23, 23, 23);
+    color: rgb(85, 0, 85);
+}
+h2
+{
+    font-weight: 800;
+}
+#menu
+{   
+    margin-bottom: 10px;
+    font-size: x-large;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.contenido
+{   
+    color: rgb(181, 181, 181);
+    text-align: right;
+}
+.images
+{
+    position: relative;
+}
+.images img
+{   
+    background-color: rgba(192, 152, 181, 0.801);
+    padding-right: 30px;position: absolute;
+    left: 0pt;
+    width: 350px;
+    height: 250px;
+    border-radius: 3%;
+    transition: opacity 1s ease-in-out;
+}
+#images:hover, .hidden-photo:hover
+{
+    opacity: 0;
+}
+.contenido_2
+{
+    padding-left: 30%;
+    color: rgb(23, 23, 23);
+}
+.contenido_3
+{   
+    padding-top: 10px;
+    border-radius: 3%;
+    padding-left: 400px;
+    background-color: rgba(220, 183, 210, 0.801);
+    padding-bottom: 15pt;
+    color: rgb(23, 23, 23);
+}
